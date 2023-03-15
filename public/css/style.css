@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: blueviolet;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+}
