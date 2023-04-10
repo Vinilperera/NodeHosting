@@ -5,7 +5,7 @@ const ejs = require('ejs');
 const app = express();
 
 // Replace the uri string with your connection string.
-const uri = "mongodb+srv://Watchflix:P9rVbkZgzRN9Gdj5@cluster0.biflqxw.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://<UserName>:<Password>@cluster0.biflqxw.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri);
 
